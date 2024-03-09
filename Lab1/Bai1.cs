@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace Lab1
 {
-    public partial class Form1 : Form
+    public partial class Bai1 : Form
     {
-        public Form1()
+        public Bai1()
         {
             InitializeComponent();
         }
-         private void button1_Click(object sender, EventArgs e)
+         private void tinhtong(object sender, EventArgs e)
         {
             int num1, num2;
             long sum = 0;
@@ -34,18 +34,16 @@ namespace Lab1
                 
             }
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void xoa(object sender, EventArgs e)
         {
             textBox1.ResetText();
             textBox2.ResetText();
             textBox3.ResetText();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void thoat(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
-       
     }
 }
