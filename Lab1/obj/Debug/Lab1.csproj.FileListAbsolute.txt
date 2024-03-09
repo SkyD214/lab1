@@ -8,3 +8,15 @@ D:\code\C#\lab1\Lab1\Lab1\bin\Debug\Lab1.exe
 D:\code\C#\lab1\Lab1\Lab1\bin\Debug\Lab1.pdb
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.exe
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\bin\Debug\Lab1.exe.config
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\bin\Debug\Lab1.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\bin\Debug\Lab1.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai1.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai2.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai3.resources
