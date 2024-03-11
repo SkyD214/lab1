@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\code\\C#\\lab1\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|d:\\code\\c#\\lab1\\lab1\\lab1\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|d:\\code\\c#\\lab1\\lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\bai3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|d:\\code\\c#\\lab1\\lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bai3.Designer.cs",
-              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.Designer.cs",
-              "RelativeDocumentMoniker": "Lab1\\Bai3.Designer.cs",
-              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.Designer.cs",
-              "RelativeToolTip": "Lab1\\Bai3.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:16:30.762Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "Lab1\\Properties\\Resources.Designer.cs",
-              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "Lab1\\Properties\\Resources.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:27:25.559Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bai3.cs [Design]",
-              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.cs",
-              "RelativeDocumentMoniker": "Lab1\\Bai3.cs",
-              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.cs [Design]",
-              "RelativeToolTip": "Lab1\\Bai3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:32:23.707Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -86,44 +31,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Bai3.cs",
-              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.cs",
-              "RelativeDocumentMoniker": "Lab1\\Bai3.cs",
-              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai3.cs",
-              "RelativeToolTip": "Lab1\\Bai3.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:17:11.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Bai4.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
               "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
               "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
               "RelativeToolTip": "Lab1\\Bai4.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwCQAAAA8AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAD4vyoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T13:07:30.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Bai4.cs [Design]",
               "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
               "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
               "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs [Design]",
               "RelativeToolTip": "Lab1\\Bai4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:07:30.288Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-11T13:07:30.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Program.cs",
               "RelativeDocumentMoniker": "Lab1\\Program.cs",
