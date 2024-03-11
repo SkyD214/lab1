@@ -21,7 +21,9 @@ namespace Lab1
         private void xoa_Click(object sender, EventArgs e)
         {
             SoNguyen.ResetText();
+
             Ketqua.ResetText();
+
         }
 
         private void thoat_Click(object sender, EventArgs e)
@@ -31,6 +33,9 @@ namespace Lab1
 
         private void doc_Click(object sender, EventArgs e)
         {
+
+            
+
             int num;
             if (!(int.TryParse(SoNguyen.Text, out num)))
             {
@@ -133,6 +138,7 @@ namespace Lab1
                 }
                 Ketqua.Text = kq;
             }
+
         }
     }
 }
