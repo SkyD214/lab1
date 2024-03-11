@@ -50,36 +50,21 @@
             // 
             this.SoNguyen.Location = new System.Drawing.Point(223, 67);
             this.SoNguyen.Name = "SoNguyen";
-<<<<<<< HEAD
-            this.SoNguyen.Size = new System.Drawing.Size(190, 22);
-=======
             this.SoNguyen.Size = new System.Drawing.Size(211, 22);
->>>>>>> ff48352fd599ddace8298bf4708a6a5b5a6ba8bf
             this.SoNguyen.TabIndex = 1;
             // 
             // Ketqua
             // 
-<<<<<<< HEAD
-            this.Ketqua.Location = new System.Drawing.Point(223, 152);
-            this.Ketqua.Name = "Ketqua";
-            this.Ketqua.ReadOnly = true;
-            this.Ketqua.Size = new System.Drawing.Size(190, 22);
-=======
             this.Ketqua.Location = new System.Drawing.Point(82, 177);
             this.Ketqua.Name = "Ketqua";
             this.Ketqua.ReadOnly = true;
             this.Ketqua.Size = new System.Drawing.Size(352, 22);
->>>>>>> ff48352fd599ddace8298bf4708a6a5b5a6ba8bf
             this.Ketqua.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
-            this.label2.Location = new System.Drawing.Point(163, 158);
-=======
             this.label2.Location = new System.Drawing.Point(79, 158);
->>>>>>> ff48352fd599ddace8298bf4708a6a5b5a6ba8bf
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 16);
             this.label2.TabIndex = 2;

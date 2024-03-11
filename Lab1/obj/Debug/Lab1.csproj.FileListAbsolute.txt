@@ -23,10 +23,7 @@ C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai1.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai2.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai3.resources
-<<<<<<< HEAD
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.Bai1.resources
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.Bai2.resources
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.Bai3.resources
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.Bai4.resources
-=======
->>>>>>> ff48352fd599ddace8298bf4708a6a5b5a6ba8bf
