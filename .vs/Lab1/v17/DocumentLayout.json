@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
               "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
               "RelativeToolTip": "Lab1\\Bai4.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAD4vyoAAAAqAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA8wMEAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T13:07:30.272Z",
               "EditorCaption": ""
@@ -50,7 +50,8 @@
               "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs [Design]",
               "RelativeToolTip": "Lab1\\Bai4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:07:30.288Z"
+              "WhenOpened": "2024-03-11T13:07:30.288Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -62,7 +63,8 @@
               "RelativeToolTip": "Lab1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:07:30.318Z"
+              "WhenOpened": "2024-03-11T13:07:30.318Z",
+              "EditorCaption": ""
             }
           ]
         }
