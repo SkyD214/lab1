@@ -31,6 +31,22 @@ namespace Lab1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //int num1;
+            if (comboBox1.Text == "Hexadecimal")
+            {
+                char[] x = textBox1.Text.ToCharArray();
+                for (int i = 0; i < textBox1.Text.Length; i++)
+                {
+                    if (x[i].Equals("A") == true || x[i].Equals("B") == true || x[i].Equals("C") == true || x[i].Equals("D") == true ||
+                        x[i].Equals("F") == true || x[i].Equals("E") == true)
+                    {
+                    MessageBox.Show("ok");
+                    }  
+                }
+            }
+            
+            else 
+            {
             int num1;
             if (!(Int32.TryParse(textBox1.Text, out num1)))
             {
@@ -51,6 +67,7 @@ namespace Lab1
                    // else if (comboBox2.Text == "Hexadecimal") DectoHex(num1);
                     //else textBox2.Text = textBox1.Text;
                 //}
+            }
             }
         }
 
