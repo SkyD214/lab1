@@ -88,7 +88,12 @@ namespace Lab1
                 {
                     if ((numstring[i] == "một") && ((a.Length - 1 - i) % 3 == 1))
                     {
-                        kq += "mười";
+                        kq += "mười ";
+                        if ((a.Length - 1 - i) % 3 == 0) kq = kq + hang2[(int)((a.Length - 1 - i) / 3)] + " ";
+                    }
+                    else if ((numstring[i] == "Một") && ((a.Length - 1 - i) % 3 == 1))
+                    {
+                        kq += "Mười ";
                         if ((a.Length - 1 - i) % 3 == 0) kq = kq + hang2[(int)((a.Length - 1 - i) / 3)] + " ";
                     }
                     else if ((numstring[i] == "một") && ((a.Length - 1 - i) % 3 != 1))
