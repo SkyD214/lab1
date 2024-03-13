@@ -42,7 +42,7 @@ namespace Lab1
                     if (x[i] <= 57 && x[i] >= 48) check++;
                     
                 }
-                if (check != textBox1.TextLength)
+                if (check != textBox1.TextLength || textBox1.Text == "")
                 {
                     MessageBox.Show("Vui lòng nhập đúng dạng hệ 16!");
                 }
@@ -90,12 +90,16 @@ namespace Lab1
                         if (str[i] == 48 || str[i] == 49) check++;
                     if (check != textBox1.TextLength)
                     {
-                        MessageBox.Show("Vui lòng nhập số nguyên!");
+                        MessageBox.Show("Vui lòng nhập đúng dạng nhị phân!");
                         return;
                     }
-                    if (comboBox2.Text == "Decimal") BintoDec(num1);
-                    else if (comboBox2.Text == "Hexadecimal") BintoHex(num1);
-                    else textBox2.Text = textBox1.Text;
+                    else
+                    {
+                        if (comboBox2.Text == "Decimal") BintoDec(num1);
+                        else if (comboBox2.Text == "Hexadecimal") BintoHex(num1);
+                        else textBox2.Text = textBox1.Text;
+                    }
+                    
                 }
                 
             }
@@ -106,6 +110,8 @@ namespace Lab1
         {
             textBox1.ResetText();
             textBox2.ResetText();
+            comboBox1.Items.Clear();
+            comboBox2.Items.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
