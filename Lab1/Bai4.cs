@@ -49,7 +49,8 @@ namespace Lab1
                 else
                 {
                     if (comboBox2.Text == "Decimal") HextoDec(textBox1.Text);
-                    
+                    else if (comboBox2.Text == "Binary") HextoBin(textBox1.Text);
+                    else textBox2.Text = textBox1.Text;
                 } 
                     
             }
@@ -98,6 +99,7 @@ namespace Lab1
                 }
                 
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -210,6 +212,43 @@ namespace Lab1
             
         }
 
+        private void HextoBin(string str)
+        {
+            char[] x = str.ToCharArray();
+            double a = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (x[i] <= 57 && x[i] >= 48)
+                {
+
+                    a += (x[i] - '0') * Math.Pow(16, x.Length - (i + 1));
+                }
+
+                if (x[i] <= 70 && x[i] >= 65)
+                {
+
+                    if (x[i] == 65) a += 10 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 66) a += 11 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 67) a += 12 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 68) a += 13 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 69) a += 14 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 70) a += 15 * Math.Pow(16, x.Length - (i + 1));
+                }
+
+            }
+            int a1 = (int)a;
+            string str2 = "";
+            while (a1 != 0)
+            {
+                int y = a1 % 2;
+                str2 += y.ToString();
+                a1 = a1 / 2;
+            }
+            char[] stringarray = str2.ToCharArray();
+            Array.Reverse(stringarray);
+            textBox2.Text = new string(stringarray);
+
+        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

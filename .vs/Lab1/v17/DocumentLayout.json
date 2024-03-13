@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\",
+  "WorkspaceRootPath": "D:\\code\\C#\\lab1\\Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab1\\lab1_source_code\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|d:\\code\\c#\\lab1\\lab1\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\lab1\\bai4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|D:\\code\\C#\\lab1\\Lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,32 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Bai4.cs",
-              "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.cs",
+              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
               "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
-              "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.cs",
-              "RelativeToolTip": "Lab1\\Bai4.cs",
-<<<<<<< HEAD
-              "ViewState": "AQIAAA4AAAAAAAAAAIA8wMEAAABJAAAA",
-=======
-              "ViewState": "AQIAABYAAAAAAAAAAAD4v30AAAAVAAAA",
->>>>>>> 929cb4872cb2c84aa9296428bc596c768499ea5e
+              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs*",
+              "RelativeToolTip": "Lab1\\Bai4.cs*",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAkwGUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T10:51:41.012Z",
+              "WhenOpened": "2024-03-11T13:07:30.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bai4.Designer.cs",
-              "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.Designer.cs",
-              "RelativeDocumentMoniker": "Lab1\\Bai4.Designer.cs",
-              "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.Designer.cs",
-              "RelativeToolTip": "Lab1\\Bai4.Designer.cs",
-              "ViewState": "AQIAALYAAAAAAAAAAAArwMYAAAArAAAA",
+              "DocumentIndex": 0,
+              "Title": "Bai4.cs [Design]",
+              "DocumentMoniker": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs",
+              "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
+              "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Bai4.cs [Design]*",
+              "RelativeToolTip": "Lab1\\Bai4.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2024-03-11T13:07:30.288Z",
               "EditorCaption": " [Design]"
             },
@@ -63,13 +61,10 @@
               "RelativeDocumentMoniker": "Lab1\\Program.cs",
               "ToolTip": "D:\\code\\C#\\lab1\\Lab1\\Lab1\\Program.cs",
               "RelativeToolTip": "Lab1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T13:07:30.318Z",
               "EditorCaption": ""
-=======
-              "WhenOpened": "2024-03-12T10:16:11.878Z"
->>>>>>> 929cb4872cb2c84aa9296428bc596c768499ea5e
             }
           ]
         }
