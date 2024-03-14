@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab1\\lab1_source_code\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab1\\lab1_source_code\\lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|solutionrelative:lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9321240-9DCC-47FD-AE1A-C25B96C0C9BF}|Lab1\\Lab1.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\lab1\\bai4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Program.cs",
               "RelativeDocumentMoniker": "Lab1\\Program.cs",
@@ -34,18 +34,17 @@
               "RelativeToolTip": "Lab1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T14:37:50.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T14:37:50.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Bai4.cs",
               "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.cs",
               "RelativeDocumentMoniker": "Lab1\\Bai4.cs",
               "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB1\\Lab1_source_code\\Lab1\\Bai4.cs",
               "RelativeToolTip": "Lab1\\Bai4.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAD4v30AAAAVAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAIAwwH0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T10:51:41.012Z",
               "EditorCaption": ""
