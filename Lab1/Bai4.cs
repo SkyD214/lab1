@@ -34,47 +34,84 @@ namespace Lab1
             //int num1;
             if (comboBox1.Text == "Hexadecimal")
             {
+                int check = 0;
                 char[] x = textBox1.Text.ToCharArray();
                 for (int i = 0; i < textBox1.Text.Length; i++)
                 {
-                    if (x[i].Equals("A") == true || x[i].Equals("B") == true || x[i].Equals("C") == true || x[i].Equals("D") == true ||
-                        x[i].Equals("F") == true || x[i].Equals("E") == true)
-                    {
-                    MessageBox.Show("ok");
-                    }  
+                    if (x[i] <= 70 && x[i] >= 65) check++;
+                    if (x[i] <= 57 && x[i] >= 48) check++;
+                    
                 }
+                if (check != textBox1.TextLength || textBox1.Text == "")
+                {
+                    MessageBox.Show("Vui lòng nhập đúng dạng hệ 16!");
+                }
+                else
+                {
+                    if (comboBox2.Text == "Decimal") HextoDec(textBox1.Text);
+                    else if (comboBox2.Text == "Binary") HextoBin(textBox1.Text);
+                    else textBox2.Text = textBox1.Text;
+                } 
+                    
             }
             
-            else 
+            else if (comboBox1.Text == "Decimal") 
             {
-            int num1;
-            if (!(Int32.TryParse(textBox1.Text, out num1)))
-            {
-                MessageBox.Show("Vui lòng nhập số nguyên!");
-                return;
-            }
-            else
-            {
-                if (comboBox1.Text == "Decimal")
+                int num1;
+                if (!(Int32.TryParse(textBox1.Text, out num1)))
                 {
-                    if (comboBox2.Text == "Binary") DectoBin(num1);
-                    else if (comboBox2.Text == "Hexadecimal") DectoHex(num1);
-                    else textBox2.Text = textBox1.Text;
+                    MessageBox.Show("Vui lòng nhập số nguyên!");
+                    return;
                 }
-               //else if (comboBox1.Text == "Binary")
-               // {
-                    //if (comboBox2.Text == "Decimal") BintoDec(num1);
-                   // else if (comboBox2.Text == "Hexadecimal") DectoHex(num1);
-                    //else textBox2.Text = textBox1.Text;
-                //}
+                else
+                {
+                    if (comboBox1.Text == "Decimal")
+                    {
+                        if (comboBox2.Text == "Binary") DectoBin(num1);
+                        else if (comboBox2.Text == "Hexadecimal") DectoHex(num1);
+                        else textBox2.Text = textBox1.Text;
+                    }
+               
+                }
+                }
+            else if (comboBox1.Text == "Binary")
+            {
+                int num1;
+                if (!(Int32.TryParse(textBox1.Text, out num1)))
+                {
+                    MessageBox.Show("Vui lòng nhập đúng dạng nhị phân!");
+                    return;
+                }
+                else
+                {
+                    int check = 0;
+                    char[] str = textBox1.Text.ToCharArray();
+                    for (int i = 0; i < textBox1.TextLength; i++)
+                        if (str[i] == 48 || str[i] == 49) check++;
+                    if (check != textBox1.TextLength)
+                    {
+                        MessageBox.Show("Vui lòng nhập đúng dạng nhị phân!");
+                        return;
+                    }
+                    else
+                    {
+                        if (comboBox2.Text == "Decimal") BintoDec(num1);
+                        else if (comboBox2.Text == "Hexadecimal") BintoHex(num1);
+                        else textBox2.Text = textBox1.Text;
+                    }
+                    
+                }
+                
             }
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.ResetText();
             textBox2.ResetText();
+            comboBox1.Items.Clear();
+            comboBox2.Items.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -118,6 +155,107 @@ namespace Lab1
             Array.Reverse(stringarray);
             textBox2.Text = new string(stringarray);
         }
+
+        private void BintoDec(int a)
+        {
+            double bin = 0;
+            for (int i = 0; i < textBox1.TextLength; i++)
+                if (textBox1.Text[i] == 49) bin += Math.Pow(2,textBox1.TextLength - (i + 1));
+            textBox2.Text = bin.ToString();
+        }
+        private void BintoHex(int b)
+        {
+            double bin = 0;
+            for (int i = 0; i < textBox1.TextLength; i++)
+                if (textBox1.Text[i] == 49) bin += Math.Pow(2, textBox1.TextLength - (i + 1));
+            int a = (int)bin;
+            string x = "";
+            while (a != 0)
+            {
+                int y = a % 16;
+                if (y <= 9) x += y.ToString();
+                else switch (y)
+                    {
+                        case 10: x += "A"; break;
+                        case 11: x += "B"; break;
+                        case 12: x += "C"; break;
+                        case 13: x += "D"; break;
+                        case 14: x += "E"; break;
+                        case 15: x += "F"; break;
+                    }
+                a = a / 16;
+            }
+            char[] stringarray = x.ToCharArray();
+            Array.Reverse(stringarray);
+            textBox2.Text = new string(stringarray);
+        }
+
+        private void HextoDec(string str)
+        {
+            char[] x = str.ToCharArray();
+            double a = 0;
+            for (int i = 0;i < str.Length;i++)
+            {
+                if (x[i] <= 57 && x[i] >= 48)
+                {
+                    
+                    a += (x[i] - '0')*Math.Pow(16, x.Length - ( i + 1 ));
+                }
+                    
+                if (x[i] <= 70 && x[i] >= 65)
+                {
+                   
+                    if (x[i] == 65) a += 10 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 66) a += 11 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 67) a += 12 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 68) a += 13 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 69) a += 14 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 70) a += 15 * Math.Pow(16, x.Length - (i + 1));
+                }
+
+            }
+            textBox2.Text = a.ToString();
+            
+        }
+
+        private void HextoBin(string str)
+        {
+            char[] x = str.ToCharArray();
+            double a = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (x[i] <= 57 && x[i] >= 48)
+                {
+
+                    a += (x[i] - '0') * Math.Pow(16, x.Length - (i + 1));
+                }
+
+                if (x[i] <= 70 && x[i] >= 65)
+                {
+
+                    if (x[i] == 65) a += 10 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 66) a += 11 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 67) a += 12 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 68) a += 13 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 69) a += 14 * Math.Pow(16, x.Length - (i + 1));
+                    if (x[i] == 70) a += 15 * Math.Pow(16, x.Length - (i + 1));
+                }
+
+            }
+            int a1 = (int)a;
+            string str2 = "";
+            while (a1 != 0)
+            {
+                int y = a1 % 2;
+                str2 += y.ToString();
+                a1 = a1 / 2;
+            }
+            char[] stringarray = str2.ToCharArray();
+            Array.Reverse(stringarray);
+            textBox2.Text = new string(stringarray);
+
+        }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
