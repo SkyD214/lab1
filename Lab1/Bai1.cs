@@ -43,7 +43,7 @@ namespace Lab1
 
         private void thoat(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
