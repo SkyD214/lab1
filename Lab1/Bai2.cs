@@ -20,7 +20,7 @@ namespace Lab1
         private void thoat(object sender, EventArgs e)
         {
             //thoát
-            Application.Exit();
+            this.Close();
         }
 
         private void xoa(object sender, EventArgs e)

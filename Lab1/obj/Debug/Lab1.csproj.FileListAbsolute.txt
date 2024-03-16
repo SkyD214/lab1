@@ -24,3 +24,5 @@ D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.exe
 D:\code\C#\lab1\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.Bai5.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB1\Lab1_source_code\Lab1\obj\Debug\Lab1.List.resources

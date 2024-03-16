@@ -28,7 +28,7 @@ namespace Lab1
 
         private void thoat_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void doc_Click(object sender, EventArgs e)
