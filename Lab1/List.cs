@@ -46,5 +46,10 @@ namespace Lab1
             Bai5 b5 = new Bai5();
             b5.ShowDialog();
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

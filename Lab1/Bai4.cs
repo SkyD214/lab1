@@ -110,8 +110,8 @@ namespace Lab1
         {
             textBox1.ResetText();
             textBox2.ResetText();
-            comboBox1.Items.Clear();
-            comboBox2.Items.Clear();
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
         }
 
         private void button3_Click(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace Lab1
 
         private void Xuat_Click(object sender, EventArgs e)
         {
+            Outputlist.Clear();
             string[] score = ScoreList.Text.Split(' ');
             List<float> numscore = new List<float>();
             foreach (string s in score)
@@ -51,7 +52,7 @@ namespace Lab1
                 if (f < 2) y++;
                 else if (f < 3.5) tb++;
                 else if (f < 5) k++;
-                else g++;
+                else if (f < 6.5) g++;
             }
             for (int i = 0; i < numscore.Count; i++)
             {
@@ -70,6 +71,23 @@ namespace Lab1
             else if (avgScore >= 5 && tb == 0) Rank.Text = "Trung bình";
             else if (avgScore >= 3.5 && y == 0) Rank.Text = "Yếu";
             else Rank.Text = "Kém";
+        }
+
+        private void Xoa_Click(object sender, EventArgs e)
+        {
+            ScoreList.Clear();
+            Outputlist.Clear();
+            AvgScore.ResetText();
+            HighestScore.ResetText();
+            LowestScore.ResetText();
+            PassedSubj.ResetText(); 
+            FailedSubj.ResetText();
+            Rank.ResetText();
+        }
+
+        private void Thoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

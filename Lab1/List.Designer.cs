@@ -33,6 +33,7 @@
             this.Bai3 = new System.Windows.Forms.Button();
             this.Bai4 = new System.Windows.Forms.Button();
             this.Bai5 = new System.Windows.Forms.Button();
+            this.exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bai1
@@ -85,11 +86,22 @@
             this.Bai5.UseVisualStyleBackColor = true;
             this.Bai5.Click += new System.EventHandler(this.Bai5_Click);
             // 
+            // exit
+            // 
+            this.exit.Location = new System.Drawing.Point(483, 279);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(131, 47);
+            this.exit.TabIndex = 5;
+            this.exit.Text = "Exit";
+            this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // List
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.Bai5);
             this.Controls.Add(this.Bai4);
             this.Controls.Add(this.Bai3);
@@ -108,5 +120,6 @@
         private System.Windows.Forms.Button Bai3;
         private System.Windows.Forms.Button Bai4;
         private System.Windows.Forms.Button Bai5;
+        private System.Windows.Forms.Button exit;
     }
 }

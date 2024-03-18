@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ScoreList = new System.Windows.Forms.TextBox();
             this.Output = new System.Windows.Forms.GroupBox();
+            this.Outputlist = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,7 +47,8 @@
             this.LowestScore = new System.Windows.Forms.Label();
             this.FailedSubj = new System.Windows.Forms.Label();
             this.Xuat = new System.Windows.Forms.Button();
-            this.Outputlist = new System.Windows.Forms.RichTextBox();
+            this.Xoa = new System.Windows.Forms.Button();
+            this.Thoat = new System.Windows.Forms.Button();
             this.Output.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +87,16 @@
             this.Output.TabIndex = 3;
             this.Output.TabStop = false;
             this.Output.Text = "Danh sách môn học và điểm";
+            // 
+            // Outputlist
+            // 
+            this.Outputlist.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Outputlist.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Outputlist.Location = new System.Drawing.Point(22, 21);
+            this.Outputlist.Name = "Outputlist";
+            this.Outputlist.Size = new System.Drawing.Size(554, 121);
+            this.Outputlist.TabIndex = 0;
+            this.Outputlist.Text = "";
             // 
             // label3
             // 
@@ -153,58 +165,52 @@
             this.AvgScore.AutoSize = true;
             this.AvgScore.Location = new System.Drawing.Point(217, 319);
             this.AvgScore.Name = "AvgScore";
-            this.AvgScore.Size = new System.Drawing.Size(104, 16);
+            this.AvgScore.Size = new System.Drawing.Size(0, 16);
             this.AvgScore.TabIndex = 12;
-            this.AvgScore.Text = "Điểm trung bình: ";
             // 
             // HighestScore
             // 
             this.HighestScore.AutoSize = true;
             this.HighestScore.Location = new System.Drawing.Point(254, 363);
             this.HighestScore.Name = "HighestScore";
-            this.HighestScore.Size = new System.Drawing.Size(141, 16);
+            this.HighestScore.Size = new System.Drawing.Size(0, 16);
             this.HighestScore.TabIndex = 13;
-            this.HighestScore.Text = "Môn có điểm cao nhất:";
             // 
             // PassedSubj
             // 
             this.PassedSubj.AutoSize = true;
             this.PassedSubj.Location = new System.Drawing.Point(195, 408);
             this.PassedSubj.Name = "PassedSubj";
-            this.PassedSubj.Size = new System.Drawing.Size(82, 16);
+            this.PassedSubj.Size = new System.Drawing.Size(0, 16);
             this.PassedSubj.TabIndex = 14;
-            this.PassedSubj.Text = "Số môn đậu:";
             // 
             // Rank
             // 
             this.Rank.AutoSize = true;
             this.Rank.Location = new System.Drawing.Point(559, 319);
             this.Rank.Name = "Rank";
-            this.Rank.Size = new System.Drawing.Size(104, 16);
+            this.Rank.Size = new System.Drawing.Size(0, 16);
             this.Rank.TabIndex = 15;
-            this.Rank.Text = "Xếp loại học lực:";
             // 
             // LowestScore
             // 
             this.LowestScore.AutoSize = true;
             this.LowestScore.Location = new System.Drawing.Point(602, 363);
             this.LowestScore.Name = "LowestScore";
-            this.LowestScore.Size = new System.Drawing.Size(147, 16);
+            this.LowestScore.Size = new System.Drawing.Size(0, 16);
             this.LowestScore.TabIndex = 16;
-            this.LowestScore.Text = "Môn có điểm thấp nhất: ";
             // 
             // FailedSubj
             // 
             this.FailedSubj.AutoSize = true;
             this.FailedSubj.Location = new System.Drawing.Point(577, 408);
             this.FailedSubj.Name = "FailedSubj";
-            this.FailedSubj.Size = new System.Drawing.Size(122, 16);
+            this.FailedSubj.Size = new System.Drawing.Size(0, 16);
             this.FailedSubj.TabIndex = 17;
-            this.FailedSubj.Text = "Số môn không đậu:";
             // 
             // Xuat
             // 
-            this.Xuat.Location = new System.Drawing.Point(607, 103);
+            this.Xuat.Location = new System.Drawing.Point(403, 103);
             this.Xuat.Name = "Xuat";
             this.Xuat.Size = new System.Drawing.Size(94, 34);
             this.Xuat.TabIndex = 18;
@@ -212,21 +218,33 @@
             this.Xuat.UseVisualStyleBackColor = true;
             this.Xuat.Click += new System.EventHandler(this.Xuat_Click);
             // 
-            // Outputlist
+            // Xoa
             // 
-            this.Outputlist.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Outputlist.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Outputlist.Location = new System.Drawing.Point(22, 21);
-            this.Outputlist.Name = "Outputlist";
-            this.Outputlist.Size = new System.Drawing.Size(554, 121);
-            this.Outputlist.TabIndex = 0;
-            this.Outputlist.Text = "";
+            this.Xoa.Location = new System.Drawing.Point(508, 103);
+            this.Xoa.Name = "Xoa";
+            this.Xoa.Size = new System.Drawing.Size(94, 34);
+            this.Xoa.TabIndex = 19;
+            this.Xoa.Text = "Xóa";
+            this.Xoa.UseVisualStyleBackColor = true;
+            this.Xoa.Click += new System.EventHandler(this.Xoa_Click);
+            // 
+            // Thoat
+            // 
+            this.Thoat.Location = new System.Drawing.Point(613, 103);
+            this.Thoat.Name = "Thoat";
+            this.Thoat.Size = new System.Drawing.Size(94, 34);
+            this.Thoat.TabIndex = 1;
+            this.Thoat.Text = "Thoát";
+            this.Thoat.UseVisualStyleBackColor = true;
+            this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
             // 
             // Bai5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Thoat);
+            this.Controls.Add(this.Xoa);
             this.Controls.Add(this.Xuat);
             this.Controls.Add(this.FailedSubj);
             this.Controls.Add(this.LowestScore);
@@ -274,5 +292,7 @@
         private System.Windows.Forms.Label FailedSubj;
         private System.Windows.Forms.Button Xuat;
         private System.Windows.Forms.RichTextBox Outputlist;
+        private System.Windows.Forms.Button Xoa;
+        private System.Windows.Forms.Button Thoat;
     }
 }

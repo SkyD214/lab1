@@ -29,6 +29,8 @@ namespace Lab1
             sothu1.ResetText();
             sothu2.ResetText();
             sothu3.ResetText();
+            solonnhat.ResetText();
+            sonhonhat.ResetText();
         }
 
         private void tim(object sender, EventArgs e)
@@ -42,7 +44,7 @@ namespace Lab1
             else
             {
                 float max = float.MinValue;
-                float min = float.MinValue;
+                float min = float.MaxValue;
                 if (num1 > num2)
                 {
                     max = num1;
